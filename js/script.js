@@ -21,3 +21,35 @@ counter.forEach(counter =>{
     updateCounter();
 });
 
+
+const mobile = document.querySelector("#mobile");
+
+mobile.onclick = function() {
+    const links = document.querySelector(".links");
+    links.classList.toggle("active");
+        
+}
+
+const close = document.querySelector(".close");
+
+close.onclick = function () {
+
+    const links = document.querySelector(".links");
+    links.classList.remove("active");
+}
+
+document.addEventListener('keydown', function(e){
+    const links = document.querySelector(".links");
+    if(e.key === 'Escape') {
+        if(!links.classList.contains('active')){
+            links.classList.remove("active");
+            console.log(e.key);
+        }
+    }
+
+})
+
+window.addEventListener("scroll", function (){ 
+    const navbar = document.querySelector("#navigation");
+    navbar.classList.toggle("sticky", window.scrollY > 0)
+})
