@@ -41,9 +41,9 @@ close.onclick = function () {
 document.addEventListener('keydown', function(e){
     const links = document.querySelector(".links");
     if(e.key === 'Escape') {
-        if(!links.classList.contains('active')){
+        if(links.classList.contains('active')){
             links.classList.remove("active");
-            console.log(e.key);
+            // console.log(e.key);
         }
     }
 
