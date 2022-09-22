@@ -163,7 +163,7 @@
 .content .hero-buttons button:nth-child(1){
     width: 11rem;
     background-color: #FBAB7E;
-    background-image: linear-gradient(62deg, #F7CE68 0%, #FBAB7E 100%);
+    background-image: linear-gradient(62deg, #fec945 0%, #f37b36 100%);
     border: 1px solid transparent;
     color: #fff;
     transition: all 0.5s ease-in-out;
@@ -171,7 +171,7 @@
 
 .content .hero-buttons button:nth-child(1):hover{
     background-color: #F7CE68;
-    background-image: linear-gradient(0deg, #FBAB7E 0%, #F7CE68 100%);
+    background-image: linear-gradient(0deg, #f37b36 0%, #fec945 100%);
 }
 
 .content .hero-buttons button:nth-child(2){
@@ -350,13 +350,13 @@
     margin-top: 2rem;
     border: 1px solid transparent;
     color: white;
-    background-image: linear-gradient(to right,  #f6d365 0%, #fda085 100%);
+    background-image: linear-gradient(to right,  #fec945 0%, #f37b36 100%);
     transition: all 0.6s ease-in-out;
     border-radius: 5px;
 }
 
 .overview_container button:hover{
-    background-image: linear-gradient(to top, #fda085 0%, #f6d365 100%);
+    background-image: linear-gradient(to top, #f37b36 0%, #fec945 100%);
     /* background-position: right center; */
 }
 
@@ -680,13 +680,13 @@
     margin-top: 2rem;
     border: 1px solid transparent;
     color: white;
-    background-image: linear-gradient(to right,  #f6d365 0%, #fda085 100%);
+    background-image: linear-gradient(to right, #fec945 0%, #f37b36 100%);
     transition: all 0.6s ease-in-out;
     border-radius: 5px;
 }
 
 .about_container button:hover{
-    background-image: linear-gradient(to top, #fda085 0%, #f6d365 100%);
+    background-image: linear-gradient(to top, #f37b36 0%, #fec945 100%);
     /* background-position: right center; */
 }
 
