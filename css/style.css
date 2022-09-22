@@ -1027,8 +1027,8 @@
         min-height: 4rem;
         width: 100%;
         box-shadow: 0px 1px 10px -3px rgba(0,0,0,0.75);
--webkit-box-shadow: 0px 1px 10px -3px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 1px 10px -3px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 0px 1px 10px -3px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 1px 10px -3px rgba(0,0,0,0.75);
         z-index: 999;
     }
 
@@ -1038,11 +1038,11 @@
         top: -50rem;
         width: 100%;
         height: 20rem;
-        background-color: white;
+        background-color: rgb(246, 246, 246);
         color: red;
         left: 0;
         z-index: 100;
-        transition:  all 1s ease-in-out;
+        transition:  all .5s ease-in-out;
     }
 
     #navigation .links ul {
@@ -1053,6 +1053,9 @@
         height: 20rem;
         /* padding-bottom: 1.5rem; */
         position: relative;
+        box-shadow: 0px 1px 10px -3px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 0px 1px 10px -3px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 1px 10px -3px rgba(0,0,0,0.75);
     }
 
     #navigation .links ul a.close {
@@ -1092,7 +1095,12 @@
     /* -------------------navigation end------------------- */
 
     #hero_container {
-        min-height: 25rem;
+        min-height: 23rem;
+    }
+
+
+    #hero_container .content p:first-child{
+        display: none;
     }
 
     #hero_container .image {
